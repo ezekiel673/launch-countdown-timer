@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Launch countdown timer</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="spec">Set Countdown</h1>
+    <form id="countdown-form">
+      <div class="countdown-inputs">
+        <div class="input-box">
+          <label for="days">Days</label>
+          <input type="text" id="days" name="days"  value="00"  pattern="\d{2}">
+        </div>
+        <div class="input-box">
+          <label for="hours">Hours</label>
+          <input type="text" id="hours" name="hours"  pattern="\d{2}" value="00">
+        </div>
+        <div class="input-box">
+          <label for="minutes">Minutes</label>
+          <input type="text" id="minutes" name="minutes"  pattern="\d{2}" value="00">
+        </div>
+        <div class="input-box">
+          <label for="seconds">Seconds</label>
+          <input type="text " id="seconds" name="seconds"  pattern="\d{2}" value="00">
+        </div>
+      </div>
+      <div class="buttons">
+        <button type="button" onclick="startCountdown()">Countdown</button>
+        <button type="reset">Cancel</button>
+      </div>
+    </form>
+    <div class="icons foot">
+        <img src="images/icon-facebook.svg" alt="icon-facebook">
+        <img src="images/icon-pinterest.svg" alt="icon-pinterest">
+        <img src="images/icon-instagram.svg" alt="icon-instagram">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
