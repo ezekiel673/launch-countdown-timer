@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://ezekiel673.github.io/launch-countdown-timer/)
-- Live Site URL: [Live Site URL](https://github.com/ezekiel673/launch-countdown-timer)
+- Solution URL: [Solution URL](https://github.com/ezekiel673/launch-countdown-timer)
+- Live Site URL: [Live Site URL](https://ezekiel673.github.io/launch-countdown-timer/)
 
 ## My Process
 
